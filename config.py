@@ -1,0 +1,3 @@
+API_KEY = "btsw"
+TONE_IP = "172.31.2.10"
+STROBE_IP = "172.31.2.11"
