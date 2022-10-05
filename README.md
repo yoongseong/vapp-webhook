@@ -11,6 +11,7 @@ pip3 freeze > requirements.txt
 If PowerShell: Set-ExecutionPolicy Unrestricted -Scope Process
 python -m pip install --upgrade pip
 python -m venv .venv
+[Ubuntu] source .venv/bin/activate
 cd .venv
 Scripts\activate
 cd ..
