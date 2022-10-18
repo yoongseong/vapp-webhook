@@ -60,8 +60,8 @@ def vapp(payload: VappWebhook):
     
     if (payload.type == "area"):
         start_strobe("blue")
-        start_tone("capacity-limit.wav")
-        playsound("capacity-limit.wav")        
+        start_tone("area-counting.wav")
+        playsound("area-counting.wav")        
         time.sleep(3)
         stop_strobe()        
         print (f"There are {payload.data['presence_thr']} person stay at water dispenser area for {payload.data['presence_time']} seconds.")
